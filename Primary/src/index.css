@@ -1,0 +1,183 @@
+body {
+  margin: 0;
+  font-size: 18px;
+  font-family: 'Lato', sans-serif;
+  color: #2e354f;
+  /* border: 5px dashed brown; */
+  height: 100vh;
+}
+h1,
+h2,
+strong {
+  font-weight: 900;
+}
+
+/* Typography */
+
+h1 {
+  font-size: 36px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 24px;
+  color: #ef5839;
+}
+a {
+  color: #ef5839;
+}
+
+a:hover,
+a:focus {
+  color: #d4b44c;
+}
+
+/* Buttons */
+
+.btn {
+  display: inline-block;
+  padding: 10px 25px;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 20px;
+  text-align: center;
+}
+
+.btn-accent {
+  background: #ef5839;
+  color: #fff;
+  margin-right: .19em;
+}
+
+.btn-accent:hover {
+  color: #2e354f;
+  background: #d4b44c;
+}
+
+.btn-white {
+  background: #fff;
+  color: #2e354f;
+}
+
+.btn-white:hover {
+  color: #2e354f;
+  background: #999;
+}
+
+/* Layout */
+
+header {
+  background: #2e354f;
+  padding: 2.70em 0;
+  color: #fff;
+}
+.container {
+  width: 90% ;
+  max-width: 620px;
+  margin: 0 auto;
+}
+.button-container{
+  width: 620px;
+  margin: 0 auto;
+}
+
+
+.section-two {
+  background: #2e354f;
+  color: #fff;
+  padding: .0125em ;
+}
+img{
+  width: 100%;
+  
+}
+@media (max-width: 768px ) and (min-width: 301px) {
+  .container {
+    width: 80%;
+    min-width: 400px;
+    margin: 0 auto;
+  }
+  header {
+    padding: .610em 0;
+    width: 100%;
+  }
+  section{
+    padding: 0.125em ;
+  }
+   
+  h2{
+   margin: .125em auto;
+  }
+  h1{
+    font-size: 1.5rem;
+    border: 2px dotted magenta;
+  }
+  p{
+    margin-top: .245em;
+    margin-bottom: .245em;
+    font-size: 1rem;
+  }
+   
+  img{
+    width: 100%;
+  }
+  .btn{
+    padding: .125em .825em;
+  }
+  .button-container{
+    width: 80%;
+    min-width: 400px;
+    margin: 0 auto;
+    border: 2px dotted magenta;
+  }
+}
+
+@media (max-width: 300px){
+  .container {
+    width: 250px;
+    margin: 0 auto;
+  }
+  header, section {
+    padding: 7px 15px;
+    width: 250px;
+    margin-bottom: 0;
+    margin-top: 0rem;
+  }
+   
+  h1, h2{
+    font-size: 20px;
+    margin-top: .011rem;
+    margin-bottom: .25rem;
+  }
+ p{
+  margin-top: .091rem;
+  margin-bottom: .012rem;
+}
+ 
+  section, strong, .section-two{
+    font-size: 12px;
+    padding: 4px 15px;
+  }
+  .section-two{
+    padding: 3px 8px 6px;
+  }
+
+  img{
+    width: 250px;
+  }
+  .btn{
+    padding: 2px 6px;
+    width: 35% ;
+    font-size: .87rem;
+    margin-top: .25rem;
+  }
+ .button-container{
+   display: flex;
+   flex-direction: column;
+   width: 190px;
+   margin-left: 0px;
+ }
+}
+
+
+
